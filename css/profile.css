@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+p{
+    color: black;
+}
+/* #sidebar{
+    height: 50vh;
+} */
+.side-bar-container{
+    height: 100vh;
+}
+.profile-page-icons{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.detail{
+    margin-left: 0.7rem;
+}
+.detail h5{
+    color: #09276A;
+}
+.detail p{
+    color: #8394ae;
+}
+
+
+@media (max-width: 425px){
+    .contacts-container div{
+        margin-bottom: 0.9rem;
+    }
+}
+
+@media (max-width: 1024px){
+    .side-bar-container{
+        height: 140vh;
+    }
+}

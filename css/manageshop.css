@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.add-shop-button button{
+    padding: 0.3rem 1.5rem;
+    margin-top: 0.2rem;
+    color: #09276A;
+    border: none;
+    background-color: #e4e7ef;
+    font-weight: bold;
+}
+.profile-menus ul {
+    margin-left: 8rem;
+}
+
+
+.shop{
+    /* border: 1px solid black; */
+    margin-left: 1rem;
+    padding: 3rem;
+    background-color: #F8F8FF;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.shop:hover{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+.shop div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop div h4{
+    color: #09276A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .profile-menus ul {
+        margin-left: 0rem;
+    }
+    .shop{
+        padding: 2rem;
+        
+    }
+    .shop img{
+        size: 30%;
+    }
+    .shop h4{
+        font-size: 97%;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+    .add-shop-button{
+        display: flex;
+        justify-content: end;
+    }
+    .add-shop-button button{
+        padding: 0.1rem 0.5rem;
+        font-size: 0.8rem;
+    }
+    .shop-container{
+        max-width: 85%;
+        margin: auto;
+    }
+    .shop{
+        /* margin-left: 0; */
+        /* margin: 1rem; */
+        margin-bottom: 1rem;
+        
+        
+    }
+}

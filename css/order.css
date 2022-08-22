@@ -1,0 +1,33 @@
+/* color: #8394ae; */
+/* color: #09276A; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.order-dropdown{
+    margin: 0rem 1.5rem;
+    /* width: 3rem; */
+    
+}
+
+.message-with-name p{
+    color: #8394ae;
+}
+select{
+    color: #09276A;
+    font-weight: bold;
+    border: none;
+    background-color: #F0F0F0;
+    height: 2.5rem;
+    width: 9rem;
+}
+
+.order-status{
+    background-color: lightgreen;
+    text-align: center;
+    /* padding-bottom: 0.2rem; */
+    /* margin: 1rem; */
+    /* height: 1rem; */
+}

@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.supplier-top{
+    background-color: #F8F8FF;
+}
+.supplier-top h3{
+    color: #09276A;
+    font-weight: bolder;
+}
+#bg-picture{
+    background-image: url(5.jpg);
+}
+
+.edit-icon{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+    float: right;
+    clear: both;
+    margin-top: 8rem;
+
+}
+.name-of-supplier{
+    margin-top: 5rem;
+}
+.address{
+    color: white;
+}
+.name-of-supplier h3, p{
+    color: white;
+}
+.profile-picture{
+    width: 8rem;
+    height: 8rem;
+    margin-top: 5rem;
+    border: 3px solid white;
+}
+ul li a{
+    text-decoration: none;
+    color: #99a6bc;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #09276A;
+}
+
+.right-box{
+    margin-left: 2rem;
+}
+.graph-light-info p{
+    color: black;
+}
+.detail-boxes img{
+    width: 3rem;
+    height: 3rem;
+}
+.right-box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .right-box{
+        width: 100%;
+        margin: 0rem;
+    }
+    
+}
+
+@media (max-width: 425px){
+     .icon{
+        display: none;
+    }
+
+    .profile-menus ul li{
+        font-size: 75%;
+        margin-left: -2rem;
+    }
+    .supplier-top h3{
+        font-size: 1.3rem;
+    }
+    .supplier-top p{
+        font-size: 1rem;
+    }
+    .name-of-supplier{
+        margin-left: 1rem;
+    }
+
+
+    
+
+}
+
+@media (max-width: 375px){
+    .profile-picture{
+        width: 7rem;
+        height: 7.5rem;
+        /* margin-top: ; */
+    }
+}
+
+@media (max-width: 325px){
+    .profile-picture{
+        width: 5rem;
+        height: 5.5rem;
+        /* margin-top: ; */
+    }
+    .profile-menus ul li{
+        font-size: 65%;
+        
+    }
+}

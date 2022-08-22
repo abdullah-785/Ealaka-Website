@@ -1,0 +1,118 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.add-product-btn{
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+}
+.add-product-btn button{
+    padding: 0.4rem 1rem;
+    color: #09276A;
+    border: none;
+    font-weight: bold;
+
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    /* overflow-x: auto; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* border: 1px solid #ddd; */
+  }
+th{
+    color: #09276A;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr td img{
+    width: 3rem;
+    height: 3rem;
+}
+.status{
+    background-color: greenyellow;
+    width: 50%;
+    padding: 0rem 0rem 0rem .8rem;
+}
+
+.delete, .edit{
+    border: 1px solid black;
+}
+.delete{
+    margin-right: 0.5rem;
+    padding: 0.2rem 0.7rem;
+    background-color: rgb(255, 91, 91);
+}
+.edit{
+    padding: 0.2rem 1.3rem;
+    background-color: rgb(67, 234, 67);
+}
+
+select{
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    /* background-color: rgb(238, 235, 235); */
+    background-color: white;
+    box-shadow: 0 0px 4px 0 rgba(107, 104, 104, 0.2), 0 0px 6px 0 rgba(79, 76, 76, 0.19);
+}
+
+/* pagination-row */
+.pagination-row{
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.pagination {
+    display: inline-block;
+    /* margin-right: 0.5rem; */
+  }
+  
+  .pagination a {
+    color: #09276A;
+    /* float: left; */
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  /* .pagination a.active {
+    background-color: #09276A;
+    color: white;
+    border-radius: 5px;
+  } */
+  
+  .pagination a:hover:not(.active) {
+    background-color: #09276A;
+    border-radius: 5px;
+    color: white;
+  }
+
+
+
+@media (max-width: 1024px) {
+    .status{
+        width: 100%;
+        padding: 0rem 0rem 0rem .8rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .pagination{
+        /* margin-top: 0.5rem; */
+    }
+    .pagination a{
+        margin: 0 0.2rem;
+    }
+}

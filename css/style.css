@@ -1,0 +1,387 @@
+/* .contianer, .container-fluid, .row, .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    border: 1px solid black;
+} */
+
+/* color: #8394ae; */
+/* color: #09276A; */
+
+.header, .list-profiles-container,
+.side-bar-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.table-container{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+body{
+    font-family: "adobe-clean", sans-serif;
+}
+
+
+/* //Hidden nav  */
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+.avatar img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.avatar-name p{
+    color: #8394ae;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#sidebar{
+    position: absolute;
+    width: 17rem;
+    height: 150vh;
+    background-color: white;
+    left: -17rem;
+    transition: 0.5s;
+    z-index: 3;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+#sidebar.active{
+    left: 0; 
+}
+
+#sidebar .toggle-btn{
+    position: absolute;
+    left: 17.3rem;
+    z-index: 1;
+}
+
+.toggle-btn img{
+    width: 2rem;
+    height: 2rem;
+    display: block;
+}
+.side-bar-icon{
+    width: 2rem;
+    height: 2rem;
+    fill: green;
+}
+.list-of-sidebar-menus div{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.list-of-sidebar-menus div img{
+    margin-right: 1rem;
+}
+.list-of-sidebar-menus div a{
+    text-decoration: none;
+    color: #8394ae;
+    font-weight: bold;
+}
+.list-of-sidebar-menus div a:hover{
+    color: #09276A;
+}
+.list-of-sidebar-menus div li{
+    margin-top: 0.4rem;
+}
+
+
+/* Nav bar Styling  */
+#logo{
+    margin-left: 3rem;
+}
+.nav-images{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.4rem;
+}
+
+.menu-bar div{
+    margin-left: 1rem;
+}
+.menu-bar a{
+    color: #09276a;
+    font-weight: bold;
+}
+#language-list, option{
+    width: 10rem;
+    background-color: #F8F8FF;
+    border-color: #F8F8FF;
+    height: 2rem;
+    margin-top: 0.4rem;
+    
+}
+select, option{
+    color: #09276A;
+    font-weight: bold;
+}
+
+.profile img{
+    width: 3rem;
+    height: 3rem;
+}
+.profile-nav-avatar{
+    border-radius: 50%;
+}
+.side-bar-container{
+    height: 163vh;
+    margin-left: 1rem;
+    background-color: white;
+}
+
+.inner-box{
+    background-color: #f8f8ff; 
+}
+.side-bar-container div{
+    margin-top: 0.5rem;
+    
+}
+
+.side-bar div img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    margin-left: -1rem;
+}
+.side-bar-container .side-bar-text{
+    margin-top: 0.9rem;
+}
+.side-bar-container div a{
+    text-decoration: none;
+    color: #8394ae;
+    font-weight: bold;
+    
+}
+
+.side-bar-container div a:hover{
+    color: #09276A;
+}
+
+/* //navbar dropdown profile  */
+
+.dropbtn {
+    color: #09276a;
+    border: none;
+    font-weight: bold;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #09276a;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8rem;
+  }
+  .dropdown-content a:hover{
+    color: green;
+    /* background-color: white; */
+  }
+
+  .dropdown-content img{
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-top: 0.9rem;
+}
+  /* .dropdown-content a:hover {background-color: #ddd;} */
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+
+/* Grap area styling */
+
+.graph-detail-container{
+    padding: 0rem 0.8rem 0 0.8rem;
+}
+.graph-container{
+    margin-left: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;   
+}
+.message-with-name{
+    background-color: #F8F8FF;
+}
+.message-with-name h3{
+    color: #09276a;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.message-with-name p{
+    color: #8394ae;
+}
+
+.box{
+    border: 0.2px solid rgb(161, 161, 161);
+}
+
+.detail-boxes-container div img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.detail-boxes:hover{
+    box-shadow: 0px 20px 20px 0px rgba(207, 202, 202, 0.89), 0px 20px 25px 0px rgba(255, 255, 255, 0.5), 0px 30px 30px 0px rgba(242, 242, 242, 0.4);
+    transition: 1s;
+}
+
+
+.title-number{
+    margin-left: 1rem;
+}
+
+.title-number .title{
+    font-weight: 600;
+    color: #8394ae;
+}
+.title-number .number{
+    color: #fb4285;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: -1rem;
+}
+
+.dot{
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50%;
+    background-color: red;
+
+}
+
+.graph-light-info div{
+    margin: 0.3rem 0 0 0.5rem;
+}
+
+.graph-light-info p{
+    font-size: 0.8rem;
+}
+
+/* <!-- list of suppliers and orders  --> */
+.list-profile-img img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.name-subtitle{
+    margin-left: 1rem;
+}
+.name-subtitle h5{
+    font-size: 1rem;
+    color: #1d1d1d;
+    font-weight: bold;
+}
+
+
+.top-supplier h5{
+    color: #09276A;
+    font-weight: bold;
+}
+.top-supplier div a{
+    color: #8394ae;
+    text-decoration: none;
+}
+
+
+
+.subtitle{
+    font-size: 0.8rem;
+    color: rgb(168, 164, 164);
+    margin-top: -0.5rem;
+    font-size: 0.8rem;
+}
+
+.list-profiles-container{
+    font-size: 80%;
+}
+.list-profile-price{
+    color: #fc76a7;
+    font-weight: bold;
+}
+.recent-order div h5{
+    color: #09276A;
+    font-weight: bolder;
+}
+.recent-order div a{
+    color: #8394ae;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* border: 1px solid #ddd; */
+}
+th{
+    color: #09276A;
+}
+td{
+    color: #a1aec3;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+/* Media Quaries */
+
+@media (max-width: 768px){
+    .side-bar-container{
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px){
+   .graph-container{
+    margin-left: 0rem;
+}
+
+.graph-container{
+    margin: auto;
+    width: 100%;
+}
+.menu-bar{
+    font-size: 82%;
+}
+.menu-bar img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.profile img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.44rem;
+}
+.menu-bar div{
+    margin-left: 0.6rem;
+}
+
+}
