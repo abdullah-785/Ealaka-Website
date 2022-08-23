@@ -1,0 +1,36 @@
+
+.add-supplier-button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.add-supplier-button button{
+    padding: 0.4rem 1rem;
+    border: none;
+    background-color: #e4e7ef;
+}
+.supplier-profile-pic{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.active-color, .deactive-color{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+.active-color{
+    background-color: lightgreen;
+}
+
+.deactive-color{
+    /* background-color: rgb(250, 108, 108); */
+    background-color: rgb(246, 183, 67);
+}
+
+.view-profile a{
+    text-decoration: none;
+    background-color: #e4e7ef;
+    padding: 0.1rem 0.4rem;
+    font-size: 90%;
+}

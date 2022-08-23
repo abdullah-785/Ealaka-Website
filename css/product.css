@@ -43,19 +43,20 @@ tr td img{
 }
 
 .delete, .edit{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    color: white;
 }
 .delete{
     margin-right: 0.5rem;
     padding: 0.2rem 0.7rem;
     background-color: rgb(255, 91, 91);
 }
-.edit{
+.edit{ 
     padding: 0.2rem 1.3rem;
     background-color: rgb(67, 234, 67);
 }
 
-select{
+#menu-selection select{
     width: 8rem;
     height: 2rem;
     border: none;
@@ -109,9 +110,6 @@ select{
 }
 
 @media (max-width: 425px) {
-    .pagination{
-        /* margin-top: 0.5rem; */
-    }
     .pagination a{
         margin: 0 0.2rem;
     }

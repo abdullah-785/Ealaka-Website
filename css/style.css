@@ -237,8 +237,8 @@ select, option{
 }
 
 .detail-boxes-container div img{
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .detail-boxes:hover{
